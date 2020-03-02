@@ -1,0 +1,6 @@
+version: "2"
+  services:
+    test1:
+      build: .
+      ports:
+        - 80:80
